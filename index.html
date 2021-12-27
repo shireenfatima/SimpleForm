@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=”stylesheet” href=”css/bootstrap.css”>
+    <link rel=”stylesheet” href=”css/bootstrap-responsive.css”>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"> 
+    <title>DOM manipulation with form</title>
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <form  id="formsubmit" action="">
+            <p>Please Enter Your Order Details</p>
+            <label for="FirstName">First Name</label><br/>
+            <input type="text" id="FirstName" name="FirstName" placeholder="Plz Enter Your First Name"><br/>
+            <label for="lastName">Last Name</label><br/>
+            <input type="text" id="lastName" name="lastName" placeholder="Plz Enter Your Last Name"><br/>
+            <label for="Address">Address</label><br/>
+            <input type="text" id="address" name="address" placeholder="Plz Enter Your Address"><br/>
+            <label for="pincode">Pincode</label><br/>
+            <input type="text" id="pincode" name="pincode" placeholder="Plz Enter Your Pincode"><br/>
+            <label for="gender">Gender</label><br/>
+            <input type="text" id="gender" name="gender" placeholder="plz Enter Your Gender"><br/>
+            <label for="Foodchoice">Food Choice</label><br/>
+            <input type="text" id="foodchoice" name="foodchoice" placeholder="Plz Enter Your Foodchoice"><br/>
+            <lable  id="state1" for="state">State</lable><br/>
+            <input type="text" id="state" name="state" placeholder="please enter your state"><br/>
+            <lable  id="country1" for="country">Country</lable><br/>
+            <input type="text" id="country" name="country" placeholder="enter your country"><br/><br/>
+           
+        </form> 
+        <button id="btn">Submit Your Order</button>   
+    </div>
+
+    <div id="tableDiv">
+        <h3 id="h3style">your entered information is available in below table</h3>
+    <table id="nameTable" class="table table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Address</th>
+                <th>Pincode</th>
+                <th>Gender</th>
+                <th>Food Choice</th>
+                <th>State</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        
+    </table>
+    </div>
+    
+
+
+    
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script scr="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+   
+</body>
+</html>
